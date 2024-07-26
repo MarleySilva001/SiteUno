@@ -1,16 +1,9 @@
-import { Link } from "react-router-dom";
+import Container from "../components/layout/Container"
 
 export default function Regras() {
     return(
-        <div>
+        <Container >
         <h1>regras</h1>
-        <nav>
-            <ul>
-                <li>
-                    <Link to='/'>home</Link>
-                </li>
-            </ul>
-        </nav>
-    </div>
+        </Container>
     )   
 }

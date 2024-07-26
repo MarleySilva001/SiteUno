@@ -1,17 +1,12 @@
-import { Link } from "react-router-dom";
+import Container from "../components/layout/Container";
+
 
 export default function Ajuda() {
     return(
-        <div>
+        <>
+        <Container >
             <h1>ajuda</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to='/'>home</Link>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-        
+       </Container>
+        </>
     )
 }
