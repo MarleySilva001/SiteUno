@@ -3,10 +3,10 @@ import './App.css'
 import Home from './pages/Home'
 import Sobre from './pages/Sobre'
 import Regras from './pages/Regras'
-import Ajuda from './pages/Ajuda'
+import Ajuda from './pages/ComoJogar'
 import NavBar from './components/layout/NavBar'
 import Footer from './components/layout/Footer'
-import Container from './components/layout/Container'
+
 
 function App() {
 
