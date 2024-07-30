@@ -1,7 +1,7 @@
 import Button from './Button';
 import style from './BuyBox.module.css'
 
-export default function BuyBox({ img, preco, nome, descricao }) {
+export default function BuyBox({ img, preco, nome, descricao, evento }) {
     return (
         <>
             <div className={style.row}>
@@ -10,13 +10,13 @@ export default function BuyBox({ img, preco, nome, descricao }) {
                 </div>
                 <div className={style.column}>
                     <p>
-                        {nome}
+                        <strong>{nome}</strong>
                     </p>
                     <p>
                         R$<span>{preco}</span>
                     </p>
                     <p>{descricao}</p>
-                    <Button titulo={'Comprar agora'} />
+                    <Button titulo={'Comprar agora'} link={evento} />
                 </div>
             </div>
         </>

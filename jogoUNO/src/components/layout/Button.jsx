@@ -1,7 +1,9 @@
-export default function Button({titulo}) {
+import style from './Button.module.css';
+
+export default function Button({ titulo, link }) {
     return (
         <>
-        <button>{titulo}</button>
+            <a href={link} target="blank"><button className={style.button}>{titulo}</button></a>
         </>
     )
 }

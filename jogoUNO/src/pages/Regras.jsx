@@ -4,15 +4,15 @@ export default function Regras() {
     return (
         <Container >
             <h1>Regras</h1>
-            <p><h3>Objetivo do Jogo: </h3>
+            <p><h2>Objetivo do Jogo: </h2>
                 O objetivo do Uno é ser o primeiro a alcançar 500 pontos, que são obtidos ao vencer rodadas e ao acumular pontos das cartas restantes dos oponentes.
 
-                <h3>Preparação do Jogo:</h3>
+                <h2>Preparação do Jogo:</h2>
                 <strong>Distribuição das Cartas: </strong> Cada jogador recebe 7 cartas. As cartas restantes formam o monte de compra, e a carta do topo desse monte é virada para iniciar o monte de descarte.
                 <br />
                 <strong>Carta Inicial: </strong> A carta do topo do monte de descarte define a cor e o número para a primeira jogada. Se a carta inicial for uma carta de ação, ela deve ser seguida conforme suas regras específicas.
                 <br />
-                <h3>Como Jogar:</h3>
+                <h2>Como Jogar:</h2>
                 <strong>Turno do Jogador: </strong> Em cada turno, o jogador deve combinar uma carta da sua mão com a carta no topo do monte de descarte. A combinação pode ser feita por número, cor ou símbolo (se for uma carta de ação).
                 <br />
                 <strong>Cartas Especiais: </strong>
@@ -35,7 +35,7 @@ export default function Regras() {
                     <li><strong>Cartas Coringa e Coringa +4:</strong> 50 pontos cada.</li>
                 </ul>
 
-                <h3>Fim do Jogo</h3>
+                <h2>Fim do Jogo:</h2>
                 O jogo pode continuar até que um jogador alcance 500 pontos ou qualquer outro número de pontos combinado previamente pelos jogadores. Também é possível jogar em várias rodadas e definir um número de rodadas para determinar o vencedor.
 
                 Essas são as regras básicas do Uno, mas há variações e regras adicionais que podem ser usadas para adaptar o jogo ao gosto dos jogadores. <br />Divirta-se jogando!</p>
